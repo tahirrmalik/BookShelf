@@ -1,0 +1,14 @@
+.body{
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    margin-top: 15px;
+    color: gray;
+    font-size: 1rem;
+}

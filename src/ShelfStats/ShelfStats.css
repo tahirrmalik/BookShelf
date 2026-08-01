@@ -1,0 +1,17 @@
+.stats-body{
+    border: 1px solid black;
+    margin-left: 15rem;
+    margin-top: 15px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 20px;
+  padding: 12px 16px;
+  margin-top: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}

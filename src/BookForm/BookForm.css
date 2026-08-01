@@ -1,0 +1,88 @@
+.form-body{
+    border: 1px solid black;
+    margin-left: 15rem;
+    margin-top: 15px;
+    width: 58%;
+    border-radius: 5px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 150px;
+  
+}
+
+.card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.error-text {
+  color: #d9381e;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.title,
+.author,
+.pages {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+/* Focus styles requirement */
+input:focus,
+.add-button:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
+.add-button {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 8rem;
+  height: 2.25rem;
+}
+
+.add-button:hover {
+  background-color: #004186;
+}
+
+/* Mobile responsive rule */
+@media (max-width: 600px) {
+  .inputs {
+    grid-template-columns: 1fr;
+  }
+}

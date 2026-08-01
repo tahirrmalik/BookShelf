@@ -1,0 +1,37 @@
+.list-body{
+    margin-left: 15rem;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.btn-filter {
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-filter.active {
+  background-color: #004186;
+  color: white;
+  border-color: #004186;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #718096;
+  margin-top: 20px;
+}
