@@ -48,12 +48,14 @@ src/
 ├── App.jsx
 ├── App.css
 └── main.jsx
+```
 
 ## 📸 Screenshots
 
 <img width="1917" height="922" alt="Screenshot From 2026-07-31 21-35-25" src="https://github.com/user-attachments/assets/ab31f607-a6d3-4e98-b9b9-c0076a037389" />
 
 <img width="1917" height="922" alt="Screenshot From 2026-07-31 21-37-49" src="https://github.com/user-attachments/assets/206cd029-3725-4315-ab62-7b2c3a83122d" />
+
 
 
 
